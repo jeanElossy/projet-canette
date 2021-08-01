@@ -159,14 +159,22 @@ footer{
   .img__bottom{
     transition: .4s ease-in-out;
     position: relative;
-    
+    span{
+      width: 35px;
+      height: 2px;
+      background: rgba(0, 0, 0, 0.795);
+      position: absolute;
+      left: 0;
+      bottom: 4px;
+      opacity: 0;
+      z-index: -1;
+    }
   }
   img{
     width: 27px;
     height: 45px;
     margin-right: 30px;
     transform: rotate(-40deg);
-    z-index: 2;
     cursor: pointer;
     
    }
@@ -176,20 +184,29 @@ footer{
   transform: translateY(-70%);
 }
 
-.img__bottom span{
+#active{
   width: 35px;
-  height: 3px;
+  height: 2px;
   background: rgba(0, 0, 0, 0.795);
   position: absolute;
   left: 0;
-  bottom: 0;
-  opacity: 0;
+  bottom: 4px;
+  z-index: -1;
 }
-.active{
-  width: 35px;
-  height: 3px;
-  background: rgba(0, 0, 0, 0.795);
+
+.overlay__bleu__one, .overlay__jaune, .overlay__bleu__two, .overlay__black{
   position: absolute;
+  z-index: 999;
+  top: 0;
   left: 0;
-  bottom: 0;
+  background: rgba(31, 31, 31, 0.945);
+  width: 27px;
+  height: 45px;
+  transform: rotate(-40deg);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.overlay__jaune{
+  opacity: 0;
 }

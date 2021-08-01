@@ -161,7 +161,7 @@ footer .pic__bottom .img__bottom span {
   background: rgba(0, 0, 0, 0.795);
   position: absolute;
   left: 0;
-  bottom: 4px;
+  bottom: 5px;
   opacity: 0;
   z-index: -1;
 }
@@ -183,7 +183,7 @@ footer .pic__bottom img {
   background: rgba(0, 0, 0, 0.795);
   position: absolute;
   left: 0;
-  bottom: 4px;
+  bottom: 5px;
   z-index: -1;
 }
 
@@ -202,6 +202,10 @@ footer .pic__bottom img {
 
 .overlay__jaune {
   opacity: 0;
+}
+
+.line {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -83,6 +83,7 @@ body {
 .container__right .pic__small {
   margin-bottom: -250px;
   width: 30px;
+  cursor: pointer;
 }
 .container__right .pic__small .img {
   width: 100%;
@@ -102,6 +103,7 @@ body {
   display: flex;
   justify-content: flex-end;
   gap: 3px;
+  cursor: pointer;
 }
 
 .title span, .circle__bottom .circle__color {
@@ -151,6 +153,7 @@ footer .pic__bottom {
 }
 footer .pic__bottom .img__bottom {
   transition: 0.4s ease-in-out;
+  position: relative;
 }
 footer .pic__bottom img {
   width: 27px;
@@ -163,6 +166,25 @@ footer .pic__bottom img {
 
 .pic__bottom .img__bottom:hover {
   transform: translateY(-70%);
+}
+
+.img__bottom span {
+  width: 35px;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.795);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+}
+
+.active {
+  width: 35px;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.795);
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

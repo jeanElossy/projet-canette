@@ -87,6 +87,7 @@ body{
   .pic__small{
     margin-bottom: -250px;
     width: 30px;
+    cursor: pointer;
     .img{
       width: 100%;
       border-radius: 10px;
@@ -103,13 +104,12 @@ body{
   }
  }
 }
-
 .circle__top, .circle__bottom{
   display: flex;
   justify-content: flex-end;
   gap: 3px;
+  cursor: pointer;
 }
-
 .title span, .circle__bottom .circle__color{
   width: 30px;
   height: 30px;
@@ -149,7 +149,6 @@ body{
   user-select: none;
 }
 
-
 /*------------------Pied de page--------------------*/
 
 footer{
@@ -159,6 +158,8 @@ footer{
     justify-content: center;
   .img__bottom{
     transition: .4s ease-in-out;
+    position: relative;
+    
   }
   img{
     width: 27px;
@@ -173,4 +174,22 @@ footer{
 }
 .pic__bottom .img__bottom:hover{
   transform: translateY(-70%);
+}
+
+.img__bottom span{
+  width: 35px;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.795);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+}
+.active{
+  width: 35px;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.795);
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }

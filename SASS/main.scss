@@ -78,7 +78,7 @@ body{
   &__right{
   position: relative;
   width: 55%;
-  height: 650px;
+  height: 100vh;
   background: $colo--yelow;
   border-radius: 0 0 0 800px;
   display: flex;
@@ -152,7 +152,7 @@ body{
 /*------------------Pied de page--------------------*/
 
 footer{
-  margin-top: -40px;
+  margin-top: -50px;
   .pic__bottom{
     display: flex;
     justify-content: center;
@@ -199,7 +199,7 @@ footer{
   z-index: 999;
   top: 0;
   left: 0;
-  background: rgba(31, 31, 31, 0.945);
+  background: rgba(31, 31, 31, 0.925);
   width: 27px;
   height: 45px;
   transform: rotate(-40deg);

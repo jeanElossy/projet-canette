@@ -73,7 +73,7 @@ body {
 .container__right {
   position: relative;
   width: 55%;
-  height: 650px;
+  height: 100vh;
   background: #c49f40;
   border-radius: 0 0 0 800px;
   display: flex;
@@ -145,7 +145,7 @@ button:hover {
 
 /*------------------Pied de page--------------------*/
 footer {
-  margin-top: -40px;
+  margin-top: -50px;
 }
 footer .pic__bottom {
   display: flex;
@@ -192,7 +192,7 @@ footer .pic__bottom img {
   z-index: 999;
   top: 0;
   left: 0;
-  background: rgba(31, 31, 31, 0.945);
+  background: rgba(31, 31, 31, 0.925);
   width: 27px;
   height: 45px;
   transform: rotate(-40deg);

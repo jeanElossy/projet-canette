@@ -7,7 +7,6 @@ function changeBlack(){
 }
 
 // faire apparaitre le trait noir en dessous des images cliquées.
-
 function spanVisible(){
   this.children[2].style.opacity = "1";
 }
@@ -18,7 +17,6 @@ function changeBlueOne(){
   document.querySelector(".picture-large").innerHTML = `<img src="./RESSOURCES/IMAGES/bleu-grand2.png" alt="canette couleur bleu">`;
   document.querySelector(".container__right").style.backgroundColor = " rgb(22, 22, 136)";
   document.querySelectorAll(".img__bottom").forEach(element => element.addEventListener("click", spanVisible));
-  
 }
 
 // // Canette jaune
@@ -34,7 +32,6 @@ function changeBlueTwo(){
   document.querySelector(".picture-large").innerHTML = `<img src="./RESSOURCES/IMAGES/bleu-grand.png" alt="canette couleur bleu">`;
   document.querySelector(".container__right").style.backgroundColor = " rgb(22, 22, 136)";
   document.querySelectorAll(".img__bottom").forEach(element => element.addEventListener("click", spanVisible));
-  
 }
 
 // overlay canette bleue 1
@@ -65,12 +62,3 @@ function overlayHiddenblack(){
   changeBlack();
 }
 
-// document.querySelectorAll(".over").forEach(element => element.addEventListener("mouseover", mouseover));
-// function mouseover(){
-//  this.nextElementSibling.nextElementSibling.style.opacity = "1";
-// }
-
-// document.querySelectorAll(".over").forEach(element => element.addEventListener("mouseout", mouseout));
-// function mouseout(){
-//  this.nextElementSibling.nextElementSibling.style.opacity = "0";
-// }
